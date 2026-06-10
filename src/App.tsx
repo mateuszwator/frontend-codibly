@@ -21,7 +21,7 @@ import {
 import { ElectricCar, EvStation, FlashOn, Timeline, CalendarToday } from '@mui/icons-material';
 import { PieChart } from '@mui/x-charts/PieChart';
 
-const API_BASE_URL = 'http://localhost:8080/api';
+const API_BASE_URL = 'https://backend-codibly.onrender.com/api';
 
 interface FuelAverage {
   fuel: string;
